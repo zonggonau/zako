@@ -8,7 +8,7 @@ export default function Register() {
         <div class="row m-0">
           <div class="auth-col-main bg-white col-12 col-lg-8 order-2 text-center p-5 h-100 align-self-stretch">
             <h1 class="site-logo mb-3">
-              <a class="navbar-brand me-0" href="index.html">
+              <Link to={"/"} className="navbar-brand me-0">
                 <img
                   class="svg-ie-fix logo-icon"
                   src="https://themes.3rdwavemedia.com/nova-pro/bs5/assets/images/logo-icon.svg"
@@ -17,7 +17,7 @@ export default function Register() {
                 <span class="logo-text">
                   NOVA <span class="alt rounded">Pro</span>
                 </span>
-              </a>
+              </Link>
             </h1>
 
             <div class="auth-wrapper mx-auto">

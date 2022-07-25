@@ -7,7 +7,7 @@ export default function Login() {
       <div class="login-section auth-section">
         <div class="auth-wrapper mx-auto my-md-5 py-4 px-5 shadow-lg bg-white">
           <h1 class="site-logo mb-3 text-center">
-            <a class="navbar-brand me-0" href="index.html">
+            <Link to={"/"} className="navbar-brand me-0">
               <img
                 class="svg-ie-fix logo-icon"
                 src="https://themes.3rdwavemedia.com/nova-pro/bs5/assets/images/logo-icon.svg"
@@ -16,7 +16,7 @@ export default function Login() {
               <span class="logo-text">
                 NOVA <span class="alt rounded">Pro</span>
               </span>
-            </a>
+            </Link>
           </h1>
           <h2 class="auth-heading mb-4 text-center">Log in to your account</h2>
           <div class="social-auth text-center mx-auto">

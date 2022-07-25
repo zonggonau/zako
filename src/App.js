@@ -4,6 +4,10 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Features from "./pages/features";
+import Pircing from "./pages/pricing";
+import Contact from "./pages/contact";
+import Register from "./pages/register";
 
 class App extends Component {
   render() {
@@ -12,7 +16,11 @@ class App extends Component {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="features" element={<Features />} />
+          <Route path="pircing" element={<Pircing />} />
           <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="signup" element={<Register />} />
         </Routes>
         <Footer />
       </div>

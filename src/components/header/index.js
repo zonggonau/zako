@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -9,7 +9,7 @@ export default function Header() {
           <div class="container position-relative">
             <nav class="navbar navbar-expand-lg">
               <h1 class="site-logo">
-                <Link to={"/"} className="nav-link">
+                <NavLink to={"/"} className="nav-link">
                   <img
                     class="logo-icon"
                     src="https://themes.3rdwavemedia.com/nova-pro/bs5/2.0/assets/images/logo-icon.svg"
@@ -18,7 +18,7 @@ export default function Header() {
                   <span class="logo-text">
                     Za<span class="alt rounded">Ko</span>
                   </span>
-                </Link>
+                </NavLink>
               </h1>
               <button
                 class="navbar-toggler"
@@ -35,35 +35,35 @@ export default function Header() {
               <div class="collapse navbar-collapse p-1 p-lg-0" id="navigation">
                 <ul class="navbar-nav ms-lg-auto">
                   <li class="nav-item me-lg-4">
-                    <Link to={"/"} className="nav-link">
+                    <NavLink to={"/"} className="nav-link">
                       Home
-                    </Link>
+                    </NavLink>
                   </li>
                   <li class="nav-item me-lg-4">
-                    <Link to={"features"} className="nav-link">
+                    <NavLink to={"features"} className="nav-link">
                       Features
-                    </Link>
+                    </NavLink>
                   </li>
                   <li class="nav-item me-lg-4">
-                    <Link to={"pircing"} className="nav-link">
+                    <NavLink to={"pircing"} className="nav-link">
                       Pricing
-                    </Link>
+                    </NavLink>
                   </li>
                   <li class="nav-item me-lg-4">
-                    <Link to={"about"} className="nav-link">
+                    <NavLink to={"about"} className="nav-link">
                       About
-                    </Link>
+                    </NavLink>
                   </li>
                   <li class="nav-item me-lg-4">
-                    <Link to={"contact"} className="nav-link">
+                    <NavLink to={"contact"} className="nav-link">
                       Contact
-                    </Link>
+                    </NavLink>
                   </li>
 
                   <li class="nav-item me-0">
-                    <Link to={"signup"} className="nav-link">
+                    <NavLink to={"signup"} className="nav-link">
                       Sign Up
-                    </Link>
+                    </NavLink>
                   </li>
                 </ul>
               </div>

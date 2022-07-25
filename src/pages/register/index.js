@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Register() {
   return (
@@ -10,7 +11,7 @@ export default function Register() {
               <a class="navbar-brand me-0" href="index.html">
                 <img
                   class="svg-ie-fix logo-icon"
-                  src="assets/images/logo-icon.svg"
+                  src="https://themes.3rdwavemedia.com/nova-pro/bs5/assets/images/logo-icon.svg"
                   alt="logo"
                 />{" "}
                 <span class="logo-text">
@@ -124,9 +125,9 @@ export default function Register() {
               <div class="option-container my-4 pt-3">
                 <div class="lead-text">
                   Already have an account?{" "}
-                  <a class="text-link" href="login.html">
+                  <Link to={"/login"} className="text-link">
                     Log in
-                  </a>{" "}
+                  </Link>
                 </div>
               </div>
             </div>
